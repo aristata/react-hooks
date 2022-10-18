@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const UseState = () => {
+export const UseState = () => {
   const [item, setItem] = useState(0);
   const incrementItem = () => setItem((prev) => prev + 1);
   const decrementItem = () => setItem((prev) => prev - 1);
@@ -14,5 +14,3 @@ const UseState = () => {
     </div>
   );
 };
-
-export default UseState;

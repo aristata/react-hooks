@@ -1,3 +1,3 @@
-import UseState from "./UseState";
+import { UseState } from "./UseState";
 
 export default UseState;
