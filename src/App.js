@@ -1,8 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import UseStatePage from "./01_useState/UseStatePage";
+
 function App() {
   return (
-    <>
-      <span>안녕하세요</span>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/01" element={<UseStatePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
