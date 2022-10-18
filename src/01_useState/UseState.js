@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const UseStatePage = () => {
+const UseState = () => {
   const [item, setItem] = useState(0);
   const incrementItem = () => setItem((prev) => prev + 1);
   const decrementItem = () => setItem((prev) => prev - 1);
@@ -15,4 +15,4 @@ const UseStatePage = () => {
   );
 };
 
-export default UseStatePage;
+export default UseState;

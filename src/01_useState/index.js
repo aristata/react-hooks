@@ -1,3 +1,3 @@
-import UseStatePage from "./UseStatePage";
+import UseState from "./UseState";
 
-export default UseStatePage;
+export default UseState;

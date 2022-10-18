@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import UseStatePage from "./01_useState";
+import UseState from "./01_useState";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/01" element={<UseStatePage />} />
+        <Route path="/01" element={<UseState />} />
       </Routes>
     </BrowserRouter>
   );
