@@ -1,3 +1,3 @@
-import { UseInput } from "./UseInput";
+import { UseInputSample } from "./UseInput";
 
-export default UseInput;
+export default UseInputSample;
