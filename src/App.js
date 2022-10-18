@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import UseStatePage from "./01_useState/UseStatePage";
+import UseStatePage from "./01_useState";
 
 function App() {
   return (
