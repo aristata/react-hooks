@@ -1,7 +1,10 @@
 import { UseInput } from "./UseInput";
 
 export const UseInputSample = () => {
-  const nameInput = UseInput("Mr. ");
+  const validator = (value) => {
+    return !value.includes("@");
+  };
+  const nameInput = UseInput("Mr. ", validator);
   return (
     <div>
       <h1>Hello</h1>
