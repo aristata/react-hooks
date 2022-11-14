@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const UseInput = (initialValue, validator) => {
+export const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);
   const onChange = (event) => {
     let isPass = true;
