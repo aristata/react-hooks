@@ -9,7 +9,12 @@ const WelcomePage = () => {
                 <ul><li><a href="/01">01. useState</a></li></ul>
                 <ul><li><a href="/02">02. useInput</a></li></ul>
                 <ul><li><a href="/03">03. useTabs</a></li></ul>
-                <ul><li><a href="/04">04. useEffect</a></li></ul>
+                <ul>
+                    <li><a href="/04">04. useEffect</a></li>
+                </ul>
+            <ul>
+                <li><a href="/05">05. useTitle</a></li>
+            </ul>
         </div>
     )
 }

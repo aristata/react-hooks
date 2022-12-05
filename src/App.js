@@ -4,6 +4,7 @@ import UseState from "./01_useState"
 import UseInput from "./02_useInput"
 import UseTabs from "./03_useTabs"
 import UseEffect from "./04_useEffect"
+import UseTitle from "./05_useTitle"
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/02" element={<UseInput />} />
                 <Route path="/03" element={<UseTabs />} />
                 <Route path="/04" element={<UseEffect />} />
+                <Route path="/05" element={<UseTitle />} />
             </Routes>
         </BrowserRouter>
     )
