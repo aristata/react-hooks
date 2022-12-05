@@ -5,7 +5,7 @@ import UseInput from "./02_useInput"
 import UseTabs from "./03_useTabs"
 import UseEffect from "./04_useEffect"
 import UseTitle from "./05_useTitle"
-import UseRefSample from "./06_useClick"
+import UseClick from "./06_useClick"
 
 function App() {
     return (
@@ -17,7 +17,7 @@ function App() {
                 <Route path="/03" element={<UseTabs />} />
                 <Route path="/04" element={<UseEffect />} />
                 <Route path="/05" element={<UseTitle />} />
-                <Route path="/06" element={<UseRefSample />} />
+                <Route path="/06" element={<UseClick />} />
             </Routes>
         </BrowserRouter>
     )
