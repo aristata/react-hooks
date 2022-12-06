@@ -1,5 +1,5 @@
 const useConfirm = (message = "", onConfirm, onCancel) => {
-  if (!onConfirm || typeof onConfirm !== "function") {
+  if (typeof onConfirm !== "function") {
     return
   }
   
@@ -8,11 +8,14 @@ const useConfirm = (message = "", onConfirm, onCancel) => {
   }
   
   return () => {
-    // eslint-disable-next-line no-restricted-globals
-    if (confirm(message)) {
+    if (window.confirm(message)) {
       onConfirm()
     } else {
-      onCancel()
+      try {
+        onCancel()
+      } catch (e) {
+        console.error("onCancel 함수가 정의되지 않았습니다")
+      }
     }
   }
 }
