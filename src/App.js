@@ -6,19 +6,23 @@ import UseTabs from "./03_useTabs"
 import UseEffect from "./04_useEffect"
 import UseTitle from "./05_useTitle"
 import UseClick from "./06_useClick"
+import UseConfirm from "./07_useConfirm"
+import UseLeavePrevent from "./08_useLeavePrevent"
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<WelcomePage />} />
-                <Route path="/01" element={<UseState />} />
-                <Route path="/02" element={<UseInput />} />
-                <Route path="/03" element={<UseTabs />} />
-                <Route path="/04" element={<UseEffect />} />
-                <Route path="/05" element={<UseTitle />} />
-                <Route path="/06" element={<UseClick />} />
-            </Routes>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<WelcomePage />} />
+              <Route path="/01" element={<UseState />} />
+              <Route path="/02" element={<UseInput />} />
+              <Route path="/03" element={<UseTabs />} />
+              <Route path="/04" element={<UseEffect />} />
+              <Route path="/05" element={<UseTitle />} />
+              <Route path="/06" element={<UseClick />} />
+              <Route path="/07" element={<UseConfirm />} />
+              <Route path="/08" element={<UseLeavePrevent />} />
+          </Routes>
         </BrowserRouter>
     )
 }
