@@ -1,4 +1,4 @@
-export const useLeavePrevent = () => {
+export const usePreventLeave = () => {
   const preventEventHandler = (event) => {
     event.preventDefault()
     event.returnValue = ""

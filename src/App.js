@@ -7,7 +7,8 @@ import UseEffect from "./04_useEffect"
 import UseTitle from "./05_useTitle"
 import UseClick from "./06_useClick"
 import UseConfirm from "./07_useConfirm"
-import UseLeavePrevent from "./08_useLeavePrevent"
+import UsePreventLeave from "./08_usePreventLeave"
+import UseBeforeLeave from "./09_useBeforeLeave"
 
 function App() {
     return (
@@ -21,7 +22,8 @@ function App() {
               <Route path="/05" element={<UseTitle />} />
               <Route path="/06" element={<UseClick />} />
               <Route path="/07" element={<UseConfirm />} />
-              <Route path="/08" element={<UseLeavePrevent />} />
+              <Route path="/08" element={<UsePreventLeave />} />
+              <Route path="/09" element={<UseBeforeLeave />} />
           </Routes>
         </BrowserRouter>
     )
