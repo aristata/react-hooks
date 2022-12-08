@@ -37,6 +37,9 @@ const WelcomePage = () => {
         <li>
           <a href="/10">10. useFadeIn</a>
         </li>
+        <li>
+          <a href="/11">11. useNetwork</a>
+        </li>
       </ul>
     </div>
   );

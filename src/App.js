@@ -10,6 +10,7 @@ import UseConfirm from "./07_useConfirm";
 import UsePreventLeave from "./08_usePreventLeave";
 import UseBeforeLeave from "./09_useBeforeLeave";
 import UseFadeIn from "./10_useFadeIn";
+import UseNetWork from "./11_useNetwork";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/08" element={<UsePreventLeave />} />
         <Route path="/09" element={<UseBeforeLeave />} />
         <Route path="/10" element={<UseFadeIn />} />
+        <Route path="/11" element={<UseNetWork />} />
       </Routes>
     </BrowserRouter>
   );
