@@ -40,6 +40,9 @@ const WelcomePage = () => {
         <li>
           <a href="/11">11. useNetwork</a>
         </li>
+        <li>
+          <a href="/12">12. useScroll</a>
+        </li>
       </ul>
     </div>
   );

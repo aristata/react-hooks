@@ -1,16 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import WelcomePage from "./welcomePage";
-import UseState from "./01_useState";
-import UseInput from "./02_useInput";
-import UseTabs from "./03_useTabs";
-import UseEffect from "./04_useEffect";
-import UseTitle from "./05_useTitle";
-import UseClick from "./06_useClick";
-import UseConfirm from "./07_useConfirm";
-import UsePreventLeave from "./08_usePreventLeave";
-import UseBeforeLeave from "./09_useBeforeLeave";
-import UseFadeIn from "./10_useFadeIn";
-import UseNetWork from "./11_useNetwork";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import WelcomePage from "./welcomePage"
+import UseState from "./01_useState"
+import UseInput from "./02_useInput"
+import UseTabs from "./03_useTabs"
+import UseEffect from "./04_useEffect"
+import UseTitle from "./05_useTitle"
+import UseClick from "./06_useClick"
+import UseConfirm from "./07_useConfirm"
+import UsePreventLeave from "./08_usePreventLeave"
+import UseBeforeLeave from "./09_useBeforeLeave"
+import UseFadeIn from "./10_useFadeIn"
+import UseNetWork from "./11_useNetwork"
+import UseScroll from "./12_useScroll"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/09" element={<UseBeforeLeave />} />
         <Route path="/10" element={<UseFadeIn />} />
         <Route path="/11" element={<UseNetWork />} />
+        <Route path="/12" element={<UseScroll />} />
       </Routes>
     </BrowserRouter>
   );
