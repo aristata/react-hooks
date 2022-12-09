@@ -43,6 +43,9 @@ const WelcomePage = () => {
         <li>
           <a href="/12">12. useScroll</a>
         </li>
+        <li>
+          <a href="/13">13. useFullScreen</a>
+        </li>
       </ul>
     </div>
   );

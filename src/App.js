@@ -12,6 +12,7 @@ import UseBeforeLeave from "./09_useBeforeLeave"
 import UseFadeIn from "./10_useFadeIn"
 import UseNetWork from "./11_useNetwork"
 import UseScroll from "./12_useScroll"
+import UseFullScreen from "./13_useFullScreen"
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/10" element={<UseFadeIn />} />
         <Route path="/11" element={<UseNetWork />} />
         <Route path="/12" element={<UseScroll />} />
+        <Route path="/13" element={<UseFullScreen />} />
       </Routes>
     </BrowserRouter>
   );
