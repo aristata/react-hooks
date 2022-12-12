@@ -14,6 +14,7 @@ import UseNetWork from "./11_useNetwork"
 import UseScroll from "./12_useScroll"
 import UseFullScreen from "./13_useFullScreen"
 import UseNotification from "./14_useNotification"
+import UseAxios from "./15_useAxios"
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/12" element={<UseScroll />} />
         <Route path="/13" element={<UseFullScreen />} />
         <Route path="/14" element={<UseNotification />} />
+        <Route path="/15" element={<UseAxios />} />
       </Routes>
     </BrowserRouter>
   );

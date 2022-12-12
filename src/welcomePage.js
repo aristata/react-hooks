@@ -49,6 +49,9 @@ const WelcomePage = () => {
         <li>
           <a href="/14">14. useNotification</a>
         </li>
+        <li>
+          <a href="/15">15. useAxios</a>
+        </li>
       </ul>
     </div>
   );
