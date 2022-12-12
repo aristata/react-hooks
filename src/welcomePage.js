@@ -46,6 +46,9 @@ const WelcomePage = () => {
         <li>
           <a href="/13">13. useFullScreen</a>
         </li>
+        <li>
+          <a href="/14">14. useNotification</a>
+        </li>
       </ul>
     </div>
   );
